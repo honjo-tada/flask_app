@@ -9,7 +9,6 @@ app = Flask(__name__)
 # --- View 側の設定 ---
 # rootディレクトリにアクセスした場合の挙動
 @app.route("/")
-
 # def 以下がアクセス後の操作
 def index():
     # return 'Hello World!'
